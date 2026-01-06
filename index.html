@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Decorative background graphics -->
+  <div class="bg-graphic bg-graphic-1"></div>
+  <div class="bg-graphic bg-graphic-2"></div>
+
+  <!-- Navbar -->
+  <header class="header">
+    <nav class="nav container">
+      <a href="#home" class="logo">Abhay Singh</a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#gallery">Images</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="nav-toggle">☰</button>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <div>
+        <span class="pill">Portfolio · Data Analyst</span>
+        <h1>Hello, I'm <span>Abhay Singh</span></h1>
+        <h2>DATA ANALYST</h2>
+        <p>
+          I am a motivated Computer Science engineering student with a strong interest in software quality, development, and problem-solving. I have hands-on experience with testing concepts, programming, and real-world technical projects. I am eager to learn, adapt quickly, and contribute to building reliable and efficient technology solutions.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">View Projects</a>
+          <a href="#contact" class="btn outline">Contact Me</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-card">
+            <h3>5+</h3>
+            <p>Completed Projects</p>
+          </div>
+          <div class="stat-card">
+            <h3>2+</h3>
+            <p>Years Learning</p>
+          </div>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="avatar-wrapper">
+          <div class="avatar-ring"></div>
+          <div class="avatar">
+            <!-- Put your photo here instead of initials if you want -->
+            <img src="profileabhay.jpg" alt="portrait" />
+          </div>
+          <div class="badge badge-top">
+            <span>👨‍💻</span>
+            <p>Coding Everyday</p>
+          </div>
+          <div class="badge badge-bottom">
+            <span>⭐</span>
+            <p>Open to Work</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div>
+          <p>
+            My name is Abhay Singh. I am a Computer Science engineering student with a strong interest in software development and data science. I have hands-on experience with <i>Python, Java, SQL, and tools like VS Code, GitHub, and Jupyter Notebook</i>. I was part of a team selected for <b>Smart India Hackathon 2024</b>, where we worked on a project related to DDoS protection using AWS, which gave me real-world exposure to cloud computing, security concepts, and team-based problem solving. Through my academic projects and hackathon experience, I have developed strong analytical and technical skills, and I am eager to contribute to impactful technology solutions while continuing to grow professionally.
+          </p>
+          <p>
+            When I'm not coding, I enjoy learning new technologies and improving my problem-solving skills.
+          </p>
+        </div>
+        <ul class="about-list">
+          <li><strong>Location:</strong> Mathura, Uttar Pradesh, India</li>
+          <li><strong>Role:</strong> Data Analyst / Software Developer</li>
+          <li><strong>Looking for:</strong> Internships, freelance projects, and full-time roles</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Languages</h3>
+          <p>Python, SQL, HTML, CSS, JavaScript</p>
+        </div>
+        <div class="skill-card">
+          <h3>Tools</h3>
+          <p>VS Code, PowerBI, Excel, MSOffice, AWS, EC2, Route 53, Amplify, S3 buckets, Figma, Postman</p>
+        </div>
+        <div class="skill-card">
+          <h3>Technologies</h3>
+          <p>NodeJS, ReactJS, pandas, Numpy, Matplotlib, MYSQL, SQL, NoSQL, Git/GitHub</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-thumb">
+            <img src="SIH24.jpeg" alt="Project 1 preview" />
+          </div>
+          <h3>DDoS Protection System For Cloud</h3>
+          <p>
+            A DDoS Protection System for cloud environments detects, analyzes, and mitigates distributed denial-of-service attacks in real time using a hybrid approach of rule-based filtering, behavioral (anomaly) detection, and adaptive mitigation (rate-limiting, traffic scrubbing, blacklisting). The system integrates with cloud load balancers and WAFs, provides dashboards and alerts, and automatically applies countermeasures to keep services available while minimizing false positives.
+          </p>
+          <p class="project-tech">Load Balancing · Amazon Web Services (AWS) · Amazon EC2 · Cyber Security Risk · Web Application Firewalls · Python (Programming Language) · Wireshark · Networking · Network Security</p>
+          
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb">
+            <img src="cgc.jpeg" alt="Project 2 preview" />
+          </div>
+          <h3>Secure Closed Group Communication</h3>
+          <p>
+            The Secure Closed Communication Platform ensures safe and private communication for defence personnel and their families over public mobile networks. It uses a client-server architecture with end-to-end encryption (AES & RSA), secure authentication (OAuth 2.0, OTP-based login), and role-based access control to maintain confidentiality and trust. The platform supports text, voice, and file sharing with strong data protection and real-time message encryption, ensuring communication remains secure even on public networks.
+          </p>
+          <p class="project-tech">Cybersecurity · AES · Encryption · React.js · SQL</p>
+          
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb">
+            <img src="sbs.jpeg" alt="Project 3 preview" />
+          </div>
+          <h3>Smart Blind Stick</h3>
+          <p>
+            The Smart IoT Blind Stick is an assistive device designed to enhance the mobility and safety of visually impaired individuals using modern IoT and sensor-based technologies. The stick detects nearby obstacles, water puddles, and changes in terrain using ultrasonic and IR sensors, and alerts the user through vibration or audio feedback. Additionally, it features GPS and GSM modules for real-time location tracking and emergency alerts, ensuring user safety during outdoor movement.
+          </p>
+          <p class="project-tech">Internet of Things (IoT) · Arduino · Sensors · Project Management · C++ · Creativity and Innovation
+Skills: Internet of Things (IoT) · Arduino · Sensors · Project Management · C++ · Creativity and Innovation
+</p>
+          
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Images / Gallery -->
+  <section class="section section-alt" id="gallery">
+    <div class="container">
+      <h2 class="section-title">Gallery</h2>
+      <p class="gallery-text">
+        A small gallery of my work.
+      </p>
+
+      <div class="gallery-grid">
+        <figure class="gallery-item">
+          <img src="innovative.jpeg" alt="Screenshot 1" />
+          
+        </figure>
+        <figure class="gallery-item">
+          <img src="innonews.jpeg" alt="Screenshot 2" />
+          
+        </figure>
+        <figure class="gallery-item">
+          <img src="sihevnew.jpeg" alt="Screenshot 3" />
+          
+        </figure>
+        <figure class="gallery-item">
+          <img src="sihprice.jpeg" alt="Photo 1" />
+          
+        </figure>
+         <figure class="gallery-item">
+          <img src="arshgoyal.jpeg" alt="Screenshot 2" />
+          
+        </figure>
+        <figure class="gallery-item">
+          <img src="SU.jpeg" alt="Photo 1" />
+          
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section" id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <p class="contact-text">
+        Want to work together or have a question? Send a message.
+      </p>
+      <div class="contact-grid">
+        <div>
+          <p><strong>Email:</strong> 94abhaygi@gmail.com</p>
+          <p><strong>GitHub:</strong> <a href="https://github.com/94abhaypratapsingh" target="_blank">https://github.com/94abhaypratapsingh</a></p>
+          <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/abhay-singh-7147b5260/" target="_blank">https://www.linkedin.com/in/abhay-singh-7147b5260/</a></p>
+        </div>
+        <form class="contact-form" onsubmit="alert('This is a demo form. Connect it to a backend to receive messages.'); return false;">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea rows="4" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Abhay Singh. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
